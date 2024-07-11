@@ -1,6 +1,6 @@
 package HW1;
 
-public abstract class Product {
+public class Product {
 
     public Product(String name, int price) {
         this.name = name;
@@ -10,6 +10,11 @@ public abstract class Product {
     String name;
 
     int price;
+
+    public Product() {
+
+    }
+
 
     public String getName() {
         return name;

@@ -9,6 +9,11 @@ public class HotWater extends Product {
         super(name, price);
         this.temp = temp;
         this.volume = volume;
+        System.out.println(temp);
+    }
+
+    public HotWater() {
+
     }
 
     public int getTemp() {
@@ -33,5 +38,7 @@ public class HotWater extends Product {
                 "temp=" + temp +
                 ", volume=" + volume +
                 '}';
+
     }
+
 }
